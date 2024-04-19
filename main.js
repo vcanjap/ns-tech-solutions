@@ -1,4 +1,4 @@
-nsApp=angular.module("nsApp", ['ngRoute']);
+nsApp=angular.module("nsApp", ['ngRoute','angularCSS']);
 
 
 nsApp.controller('nsMainController', () => {
@@ -13,7 +13,8 @@ nsApp.config(function ($routeProvider, $locationProvider) {
     $routeProvider
        .when('/', {
             templateUrl: 'views/home.html',
-            controller: 'homeController'
+            controller: 'homeController',
+            css: 'styles/home.css'
         })
         .when('/solutions', {
             templateUrl: 'views/solutions.html',

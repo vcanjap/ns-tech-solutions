@@ -14,6 +14,7 @@
     <script src="dependencies/angular/angular.min.js"></script>
     <script src="dependencies/angular/angular-route.min.js"></script>
     <script src="dependencies/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="dependencies/angular-css/angular-css.min.js"></script>
     <script src="main.js"></script>
 </head>
 
@@ -47,26 +48,21 @@
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container-fluid">
         <div ng-view></div>
     </div>
     <footer class="bg-secondary">
         <div class="container">
             <div class="row">
                 <div class="col-1"><a class="navbar-brand" href="/"><img class="img-fluid" src="images/NS-ts.png" alt="NSts" width="40" height="20"></a></div>
-                <div class="col-3">
-                    <span>Copyright &copy;NS Tech Solutions</span><br />
+                <div class="col-5">
+                    <span><b>Copyright &copy;NS Tech Solutions</b></span><br />
                     <a href="#/privacy">Privacy Policy</a>
                 </div>
-                <div class="col-4">
+                <div class="col-6">
                     <b>Contact us</b><br />
                     <span>Phone: (xxx) xxx - xxxx</span><br />
-                    <span>E-mail: nstechsoftsolutions@gmail.com</span>
-                </div>
-                <div class="col-3">
-                    <b>Social Media</b><br />
-                    <span>Facebook:</span><br />
-                    <span>Whatsapp:</span>
+                    <span>E-mail: <a href="mailto:nstechsoftsolutions@gmail.com">nstechsoftsolutions@gmail.com</a></span>
                 </div>
             </div>
         </div>
